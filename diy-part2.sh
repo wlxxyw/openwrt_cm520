@@ -18,3 +18,5 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+./scripts/feeds uninstall luci-app-ssr-plus
+./scripts/feeds uninstall shadowsocksr-libev
